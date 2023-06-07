@@ -1,5 +1,5 @@
 # refresh_page
-* Tạo một trang HTML đơn giản với một danh sách người dùng và một nút để làm mới danh sách.
+- Tạo một trang HTML đơn giản với một danh sách người dùng và một nút để làm mới danh sách.
 ```php
 <!DOCTYPE html>
 <html>
@@ -48,7 +48,7 @@
 </body>
 </html>
 ```
-*Tạo một tệp PHP (lay-danh-sach-nguoi-dung.php) để lấy danh sách người dùng từ cơ sở dữ liệu và hiển thị trên trang.
+- Tạo một tệp PHP (lay-danh-sach-nguoi-dung.php) để lấy danh sách người dùng từ cơ sở dữ liệu và hiển thị trên trang.
 ```php
 <?php
 // Kết nối cơ sở dữ liệu
@@ -75,7 +75,7 @@ if ($result && $result->num_rows > 0) {
 $conn->close();
 ?>
 ```
-*Tạo một tệp PHP (kiem-tra-thay-doi.php) để kiểm tra sự thay đổi dữ liệu trên cơ sở dữ liệu SQL. Trong ví dụ này, chúng ta giả định có một bảng "users" với một trường "last_updated" để lưu thời gian cập nhật gần nhất.
+- Tạo một tệp PHP (kiem-tra-thay-doi.php) để kiểm tra sự thay đổi dữ liệu trên cơ sở dữ liệu SQL. Trong ví dụ này, chúng ta giả định có một bảng "users" với một trường "last_updated" để lưu thời gian cập nhật gần nhất.
 ```php
 <?php
 // Kết nối cơ sở dữ liệu
